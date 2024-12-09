@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <!-- Interface -->
+        <members>C3C_IQProcessingAsyncControl2Selector</members>
+        <members>C3C_IQueueProcessSelector</members>
+        <members>C3C_IQueueProcessService</members>
+
+        <!-- Classes -->
+        <members>C3C_ProcessingQueueBatch</members>
+        <members>C3C_ProcessingQueueBatchTest</members>
+        <members>C3C_ProcessingQueueQueueable</members>
+        <members>C3C_ProcessingQueueQueueableTest</members>
+        <members>C3C_ProcessingQueueSchedule</members>
+        <members>C3C_ProcessingQueueScheduleTest</members>
+        <members>C3C_QueueProcessLogItemViewController</members>
+        <members>C3C_QueueProcessLogItemViewControllerTst</members>
+        <members>C3C_QueueProcessSelector</members>
+        <members>C3C_QueueProcessSelectorTest</members>
+        <members>C3C_QueueProcessingAsyncControl2Selector</members>
+        <members>C3C_QueueProcessingAsyncControl2SelTest</members>
+        <members>C3C_QueueProcessingBatchService</members>
+        <members>C3C_QueueProcessingBatchServiceTest</members>
+        <members>C3C_QueueProcessingItemService</members>
+        <members>C3C_QueueProcessingItemServiceTest</members>
+        <members>C3C_QueueProcessingLogItem</members>
+        <members>C3C_QueueProcessingLogItemTest</members>
+        <members>C3C_QueueProcessingLogItemService</members>
+        <members>C3C_QueueProcessingLogItemServiceTest</members>
+        <members>C3C_QueueReprocessingItemController</members>
+        <members>C3C_QueueReprocessingItemControllerTest</members>
+
+        <!-- Test Trigger -->
+        <members>C3C_QueueProcessingBatchEventTriggerTest</members>
+        <members>C3C_QueueProcessingBatchTriggerTest</members>
+        <members>C3C_QueueProcessingItemTriggerTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>C3C_QueueProcessingBatchEventTrigger</members>
+        <members>C3C_QueueProcessingBatchTrigger</members>
+        <members>C3C_QueueProcessingItemTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>C3C_QueueProcessService__mdt.ClassName__c</members>
+        <members>C3C_QueueProcessService__mdt.IsActive__c</members>
+        <members>C3C_QueueProcessingAsyncControl2__c.InExecution__c</members>
+        <members>C3C_QueueProcessingAsyncControl2__c.NextExecuteQueueProcessingBatchId__c</members>
+        <members>C3C_QueueProcessingAsyncControl2__c.ServiceName__c</members>
+        <members>C3C_QueueProcessingBatchEvent__e.ExternalId__c</members>
+        <members>C3C_QueueProcessingBatchEvent__e.ScheduledDatetime__c</members>
+        <members>C3C_QueueProcessingBatchEvent__e.Type__c</members>
+        <members>C3C_QueueProcessingBatch__c.ExternalId__c</members>
+        <members>C3C_QueueProcessingBatch__c.ScheduledDatetime__c</members>
+        <members>C3C_QueueProcessingBatch__c.Status__c</members>
+        <members>C3C_QueueProcessingItem__c.Body__c</members>
+        <members>C3C_QueueProcessingItem__c.IntervalMinutes__c</members>
+        <members>C3C_QueueProcessingItem__c.QueueProcessingBatchExternalId__c</members>
+        <members>C3C_QueueProcessingItem__c.QueueProcessingBatchId__c</members>
+        <members>C3C_QueueProcessingItem__c.ScheduledDatetime__c</members>
+        <members>C3C_QueueProcessingItem__c.ScheduledExpression__c</members>
+        <members>C3C_QueueProcessingItem__c.ServiceName__c</members>
+        <members>C3C_QueueProcessingItem__c.Status__c</members>
+        <members>C3C_QueueProcessingLogItem__c.ErrorMessage__c</members>
+        <members>C3C_QueueProcessingLogItem__c.QueueProcessingItemId__c</members>
+        <members>C3C_QueueProcessingLogItem__c.Response__c</members>
+        <members>C3C_QueueProcessingLogItem__c.Type__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>C3C_QueueProcessService__mdt</members>
+        <members>C3C_QueueProcessingAsyncControl2__c</members>
+        <members>C3C_QueueProcessingBatchEvent__e</members>
+        <members>C3C_QueueProcessingBatch__c</members>
+        <members>C3C_QueueProcessingItem__c</members>
+        <members>C3C_QueueProcessingLogItem__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>C3C_QueueProcessingAsyncControl2__c</members>
+        <members>C3C_QueueProcessingBatch__c</members>
+        <members>C3C_QueueProcessingItem__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Item_da_Fila_de_Processamento_P_gina_de_registro</members>
+        <members>Log_do_Item_da_Fila_de_Processamento_P_gina_de_registro</members>
+        <members>Lote_da_Fila_de_Processamento_P_gina_de_registro</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>C3C_QueueProcessService__mdt-Layout de C3C Queue Process Service</members>
+        <members>C3C_QueueProcessingBatch__c-Layout de Lote da Fila de Processamento</members>
+        <members>C3C_QueueProcessingItem__c-Layout de Item da Fila de Processamento</members>
+        <members>C3C_QueueProcessingLogItem__c-Layout de Log do Item da Fila de Processamento</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>c3cQueueProcessLogItemView</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>C3C_QueueProcessingAsyncControl2__c.All</members>
+        <members>C3C_QueueProcessingBatch__c.All</members>
+        <members>C3C_QueueProcessingItem__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>LIB_C3C_QueueProcess</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>C3C_QueueProcessingBatch__c.Async</members>
+        <members>C3C_QueueProcessingBatch__c.AsyncScheduled</members>
+        <members>C3C_QueueProcessingBatch__c.AsyncTimeout</members>
+        <members>C3C_QueueProcessingItem__c.Async</members>
+        <members>C3C_QueueProcessingItem__c.AsyncScheduled</members>
+        <members>C3C_QueueProcessingItem__c.AsyncTimeout</members>
+        <name>RecordType</name>
+    </types>
+    <version>59.0</version>
+</Package>

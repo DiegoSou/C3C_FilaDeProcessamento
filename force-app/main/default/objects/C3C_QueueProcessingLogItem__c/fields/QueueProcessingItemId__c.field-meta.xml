@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QueueProcessingItemId__c</fullName>
+    <externalId>false</externalId>
+    <label>Item da Fila de Processamento</label>
+    <referenceTo>C3C_QueueProcessingItem__c</referenceTo>
+    <relationshipLabel>Logs do Item da Fila de Processamento</relationshipLabel>
+    <relationshipName>Logs_do_Item_da_Fila_de_Processamento</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

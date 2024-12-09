@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>InExecution__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Inicialmente preenchido na classe C3C_QueueProcessingBatchService, no método executeAsyncQueueProcessingBatch. Ao iniciar a execução de um lote de processamento assíncrono da fila, é setado como true</description>
+    <externalId>false</externalId>
+    <label>Está em execução</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
