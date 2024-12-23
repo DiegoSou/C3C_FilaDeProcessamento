@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>C3C_ProcessingQueueScheduler</fullName>
+        <categories>QueueProgressing</categories>
+        <language>pt_BR</language>
+        <protected>false</protected>
+        <shortDescription>C3C_ProcessingQueueScheduler</shortDescription>
+        <value>C3C - Fila de processamento</value>
+    </labels>
+</CustomLabels>
